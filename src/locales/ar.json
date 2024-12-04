@@ -1,0 +1,44 @@
+{
+  "auth": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "username": "اسم المستخدم",
+    "password": "كلمة المرور",
+    "rememberMe": "تذكرني",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "changePassword": "تغيير كلمة المرور",
+    "oldPassword": "كلمة المرور القديمة",
+    "newPassword": "كلمة المرور الجديدة",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "enterUsername": "الرجاء إدخال اسم المستخدم",
+    "enterPassword": "الرجاء إدخال كلمة المرور",
+    "loginSuccess": "تم تسجيل الدخول بنجاح",
+    "loginError": "اسم المستخدم أو كلمة المرور غير صحيحة"
+  },
+  "menu": {
+    "dashboard": "لوحة التحكم",
+    "sales": "المبيعات",
+    "purchases": "المشتريات",
+    "inventory": "المخزون",
+    "accounts": "الحسابات",
+    "users": "المستخدمين",
+    "reports": "التقارير"
+  },
+  "common": {
+    "submit": "إرسال",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "search": "بحث",
+    "filter": "تصفية",
+    "loading": "جاري التحميل..."
+  },
+  "settings": {
+    "language": "اللغة",
+    "theme": "المظهر",
+    "darkMode": "الوضع الداكن",
+    "lightMode": "الوضع الفاتح"
+  }
+}

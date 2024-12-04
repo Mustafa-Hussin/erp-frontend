@@ -1,0 +1,205 @@
+/* الأنماط الأساسية للتطبيق */
+.app-wrapper {
+  min-height: 100vh;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* تحسينات RTL */
+[dir="rtl"] .ant-menu-item {
+  text-align: right;
+}
+
+[dir="rtl"] .ant-menu-item .anticon {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+[dir="rtl"] .ant-menu-submenu-title .anticon {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+[dir="rtl"] .ant-menu-inline .ant-menu-item::after {
+  right: unset;
+  left: 0;
+}
+
+[dir="rtl"] .ant-form-item-label {
+  text-align: right;
+}
+
+[dir="rtl"] .ant-modal-header {
+  text-align: right;
+}
+
+[dir="rtl"] .ant-modal-close {
+  right: unset;
+  left: 0;
+}
+
+[dir="rtl"] .ant-drawer-header {
+  text-align: right;
+}
+
+[dir="rtl"] .ant-drawer-close {
+  right: unset;
+  left: 0;
+}
+
+/* أنماط العناصر الأساسية */
+.card {
+  background-color: var(--color-bg-container);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--color-border);
+}
+
+.text-secondary {
+  color: var(--color-text-secondary);
+}
+
+.text-tertiary {
+  color: var(--color-text-tertiary);
+}
+
+.border {
+  border: 1px solid var(--color-border);
+}
+
+.border-secondary {
+  border: 1px solid var(--color-border-secondary);
+}
+
+.elevated {
+  background-color: var(--color-bg-elevated);
+  box-shadow: var(--box-shadow-secondary);
+}
+
+/* أنماط التحولات */
+.fade-transition {
+  transition: all 0.3s ease;
+}
+
+/* أنماط الأزرار المخصصة */
+.custom-button {
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: var(--border-radius);
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.custom-button:hover {
+  opacity: 0.9;
+}
+
+/* تحسينات للقائمة الجانبية */
+.ant-layout-sider {
+  position: fixed !important;
+  height: 100vh;
+  z-index: 999;
+}
+
+.ant-menu-inline .ant-menu-item {
+  margin: 4px 0;
+  width: 100% !important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* تحسينات للهيدر */
+.ant-layout-header {
+  padding: 0 16px !important;
+  height: 64px;
+  line-height: 64px;
+  background: var(--color-bg-container);
+}
+
+/* تحسينات للمحتوى */
+.ant-layout-content {
+  transition: all 0.3s ease;
+  min-height: calc(100vh - 64px);
+  padding: 24px;
+  background: var(--color-bg-container);
+}
+
+/* تحسينات للبطاقات في لوحة التحكم */
+.dashboard-card {
+  height: 100%;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 24px;
+  border-radius: 12px;
+  background: var(--color-bg-container);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-card .value {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 8px 0;
+  color: var(--color-primary);
+}
+
+.dashboard-card .label {
+  color: var(--color-text-secondary);
+  font-size: 16px;
+}
+
+.dashboard-card .icon {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: var(--color-primary);
+}
+
+/* أنماط النصوص */
+.heading {
+  color: var(--color-text);
+  font-size: calc(var(--font-size-base) * 1.5);
+  line-height: var(--line-height-base);
+}
+
+.subheading {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+}
+
+/* أنماط الحاويات */
+.container {
+  background-color: var(--color-bg-container);
+  padding: 16px;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-border);
+}
+
+.container-elevated {
+  background-color: var(--color-bg-elevated);
+  padding: 16px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+/* أنماط التأثيرات */
+.hover-effect {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hover-effect:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--box-shadow-secondary);
+}

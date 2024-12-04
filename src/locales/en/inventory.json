@@ -1,0 +1,62 @@
+{
+    "inventory": {
+        "title": "Inventory",
+        "products": {
+            "title": "Products",
+            "add": "Add Product",
+            "edit": "Edit Product",
+            "delete": "Delete Product",
+            "code": "Product Code",
+            "name": "Product Name",
+            "description": "Description",
+            "category": "Category",
+            "unit": "Unit",
+            "price": "Selling Price",
+            "cost": "Cost Price",
+            "quantity": "Quantity",
+            "minQuantity": "Minimum Quantity",
+            "barcode": "Barcode",
+            "image": "Product Image",
+            "isActive": "Active",
+            "createdAt": "Created At",
+            "updatedAt": "Updated At"
+        },
+        "report": {
+            "title": "Inventory Report",
+            "openingValue": "Opening Value",
+            "currentValue": "Current Value",
+            "potentialValue": "Potential Value",
+            "potentialProfit": "Potential Profit",
+            "profitMargin": "Profit Margin",
+            "product": "Product",
+            "category": "Category",
+            "branch": "Branch",
+            "sellingPrice": "Selling Price",
+            "currentStock": "Current Stock",
+            "allocatedUnits": "Allocated Units",
+            "requestedUnits": "Requested Units",
+            "export": "Export to Excel",
+            "print": "Print Report"
+        },
+        "status": {
+            "low": "Low Stock",
+            "out": "Out of Stock",
+            "available": "Available",
+            "discontinued": "Discontinued"
+        },
+        "units": {
+            "piece": "Piece",
+            "kg": "Kilogram",
+            "meter": "Meter",
+            "liter": "Liter",
+            "box": "Box",
+            "carton": "Carton"
+        },
+        "filters": {
+            "category": "Filter by Category",
+            "status": "Filter by Status",
+            "branch": "Filter by Branch",
+            "date": "Filter by Date"
+        }
+    }
+}

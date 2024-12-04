@@ -1,0 +1,62 @@
+{
+    "inventory": {
+        "title": "المخزون",
+        "products": {
+            "title": "المنتجات",
+            "add": "إضافة منتج",
+            "edit": "تعديل منتج",
+            "delete": "حذف منتج",
+            "code": "كود المنتج",
+            "name": "اسم المنتج",
+            "description": "وصف المنتج",
+            "category": "الفئة",
+            "unit": "وحدة القياس",
+            "price": "سعر البيع",
+            "cost": "سعر الشراء",
+            "quantity": "الكمية",
+            "minQuantity": "الحد الأدنى للكمية",
+            "barcode": "الباركود",
+            "image": "صورة المنتج",
+            "isActive": "نشط",
+            "createdAt": "تاريخ الإنشاء",
+            "updatedAt": "تاريخ التحديث"
+        },
+        "report": {
+            "title": "تقرير المخزون",
+            "openingValue": "مخزون أول المدة",
+            "currentValue": "قيمة المخزون الحالية",
+            "potentialValue": "القيمة المحتملة",
+            "potentialProfit": "الربح المحتمل",
+            "profitMargin": "هامش الربح",
+            "product": "المنتج",
+            "category": "الفئة",
+            "branch": "الفرع",
+            "sellingPrice": "سعر البيع",
+            "currentStock": "المخزون الحالي",
+            "allocatedUnits": "الوحدات المخصصة",
+            "requestedUnits": "الوحدات المطلوبة",
+            "export": "تصدير إلى Excel",
+            "print": "طباعة التقرير"
+        },
+        "status": {
+            "low": "مخزون منخفض",
+            "out": "نفذ المخزون",
+            "available": "متوفر",
+            "discontinued": "متوقف"
+        },
+        "units": {
+            "piece": "قطعة",
+            "kg": "كيلوجرام",
+            "meter": "متر",
+            "liter": "لتر",
+            "box": "صندوق",
+            "carton": "كرتونة"
+        },
+        "filters": {
+            "category": "تصفية حسب الفئة",
+            "status": "تصفية حسب الحالة",
+            "branch": "تصفية حسب الفرع",
+            "date": "تصفية حسب التاريخ"
+        }
+    }
+}

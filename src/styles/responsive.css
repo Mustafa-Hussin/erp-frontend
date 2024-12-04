@@ -1,0 +1,165 @@
+/* أنماط عامة للتجاوب مع الأجهزة المختلفة */
+
+/* الهواتف الصغيرة */
+@media (max-width: 576px) {
+  .ant-table {
+    font-size: 12px;
+  }
+
+  .ant-form-item-label {
+    padding: 0 0 4px;
+  }
+
+  .ant-card {
+    margin-bottom: 8px;
+  }
+
+  .ant-space {
+    gap: 4px !important;
+  }
+}
+
+/* الهواتف والأجهزة اللوحية */
+@media (max-width: 768px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+
+  .ant-form-item {
+    margin-bottom: 12px;
+  }
+
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td {
+    padding: 8px;
+  }
+}
+
+/* الأجهزة اللوحية والشاشات الصغيرة */
+@media (max-width: 992px) {
+  .ant-layout-content {
+    margin: 8px !important;
+  }
+
+  .ant-card-head-title {
+    font-size: 16px;
+  }
+}
+
+/* تحسينات عامة للتجاوب */
+.responsive-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.responsive-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* تحسينات للنصوص */
+.responsive-text {
+  font-size: clamp(14px, 2vw, 16px);
+  line-height: 1.5;
+}
+
+.responsive-heading {
+  font-size: clamp(18px, 3vw, 24px);
+  line-height: 1.3;
+}
+
+/* تحسينات للصور */
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* تحسينات للأزرار */
+.responsive-button {
+  padding: clamp(4px, 1vw, 8px) clamp(8px, 2vw, 16px);
+  font-size: clamp(12px, 1.5vw, 14px);
+}
+
+/* تحسينات للجداول */
+.responsive-table {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* تحسينات للنماذج */
+.responsive-form {
+  max-width: 100%;
+  width: clamp(280px, 90vw, 600px);
+  margin: 0 auto;
+}
+
+/* تحسينات للبطاقات */
+.responsive-card {
+  width: 100%;
+  max-width: clamp(280px, 90vw, 400px);
+}
+
+/* تحسينات للقوائم */
+.responsive-menu {
+  max-height: calc(100vh - 64px);
+  overflow-y: auto;
+}
+
+/* تحسينات للمسافات */
+.responsive-spacing {
+  padding: clamp(8px, 2vw, 24px);
+  margin: clamp(4px, 1vw, 16px);
+}
+
+/* تحسينات للحاويات */
+.responsive-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(8px, 2vw, 24px);
+}
+
+/* تحسينات للشبكة */
+.responsive-columns {
+  columns: clamp(1, auto, 3);
+  gap: 16px;
+}
+
+/* تحسينات للتنقل */
+.responsive-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+/* تحسينات للبحث */
+.responsive-search {
+  width: clamp(200px, 50vw, 400px);
+}
+
+/* تحسينات للتنبيهات */
+.responsive-alert {
+  width: clamp(280px, 90vw, 600px);
+  margin: 8px auto;
+}
+
+/* تحسينات للمودال */
+.responsive-modal {
+  width: clamp(280px, 90vw, 800px) !important;
+}
+
+/* تحسينات للتذييل */
+.responsive-footer {
+  padding: clamp(16px, 3vw, 32px);
+  text-align: center;
+}
+
+/* تحسينات للشعار */
+.responsive-logo {
+  height: clamp(32px, 5vw, 48px);
+  width: auto;
+}

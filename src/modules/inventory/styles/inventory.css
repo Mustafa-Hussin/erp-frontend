@@ -1,0 +1,99 @@
+.inventory-list {
+    padding: 24px;
+}
+
+.statistics-card {
+    margin-bottom: 24px;
+    background-color: var(--background-dark);
+    border: none;
+}
+
+.statistics-card .ant-statistic-title {
+    color: var(--text-secondary);
+}
+
+.statistics-card .ant-statistic-content {
+    color: var(--text-primary);
+}
+
+.inventory-table-card {
+    background-color: var(--background-dark);
+    border: none;
+}
+
+.filter-row {
+    margin-bottom: 16px;
+}
+
+.filter-row .ant-btn {
+    margin-right: 8px;
+}
+
+.print-button {
+    margin-left: auto;
+}
+
+/* تنسيق الجدول */
+.ant-table {
+    background-color: var(--background-darker);
+}
+
+.ant-table-thead > tr > th {
+    background-color: var(--background-darker) !important;
+    color: var(--text-secondary);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.ant-table-tbody > tr > td {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.ant-table-tbody > tr:hover > td {
+    background-color: var(--background-hover) !important;
+}
+
+/* تنسيق صف المجموع */
+.ant-table-summary {
+    background-color: var(--background-darker);
+}
+
+.ant-table-summary > tr > td {
+    border-top: 1px solid var(--border-color);
+    font-weight: bold;
+}
+
+/* تنسيق الأرقام السالبة باللون الأحمر */
+.negative-value {
+    color: #ff4d4f;
+}
+
+/* تنسيق القيم المرتفعة باللون الأخضر */
+.positive-value {
+    color: #52c41a;
+}
+
+/* تحسين مظهر أزرار الفلترة */
+.ant-btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.ant-btn-primary:hover {
+    background-color: var(--primary-color-hover);
+    border-color: var(--primary-color-hover);
+}
+
+/* تنسيق البحث */
+.ant-input-affix-wrapper {
+    background-color: var(--background-darker);
+    border-color: var(--border-color);
+}
+
+.ant-input-affix-wrapper:hover {
+    border-color: var(--primary-color);
+}
+
+.ant-input {
+    background-color: var(--background-darker);
+    color: var(--text-primary);
+}
